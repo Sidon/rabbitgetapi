@@ -16,7 +16,7 @@ __copyright__ = "Copyright 2021 Sidon Duarte and individual contributors"
 
 import importlib_metadata
 
-metadata = importlib_metadata.metadata("rabbitgetapi-sdn")
+metadata = importlib_metadata.metadata("rabbitgetapi")
 
 __title__ = metadata["name"]
 __summary__ = metadata["summary"]
