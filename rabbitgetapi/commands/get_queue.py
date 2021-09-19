@@ -16,8 +16,7 @@ def save_messages(url, headers, data, auth, output_file, mode, message_separator
                 output_message = f"\n{pprint.pformat(message, indent=4)}"
                 file_handler.write(output_message)
                 file_handler.write(message_separator)
-    else:
-        print(response)
+    print(response)
 
 
 def main(args: List[str]) -> None:
